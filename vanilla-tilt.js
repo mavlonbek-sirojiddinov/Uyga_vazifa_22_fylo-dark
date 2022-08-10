@@ -37,7 +37,7 @@ class VanillaTilt {
     this.element = element;
     this.settings = this.extendSettings(settings);
 
-    this.reverse = this.settings.reverse ? -1 : 1;
+    this.reverse = this.settings.reverse ? -2 : 2;
     this.glare = VanillaTilt.isSettingTrue(this.settings.glare);
     this.glarePrerender = VanillaTilt.isSettingTrue(this.settings["glare-prerender"]);
     this.fullPageListening = VanillaTilt.isSettingTrue(this.settings["full-page-listening"]);
